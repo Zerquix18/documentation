@@ -4,9 +4,9 @@ The final step to get your project integrated into Boardroom Portal is to reach 
 
 Ping the following channel \(🪄new-integrations\) and include a link to your 'Protocol Information' pull request, as well as your Treasury contract address \(if applicable\).
 
-{% embed url="https://discord.gg/Q7h2RcPPKQ" %}
+{% embed url="https://discord.gg/Q7h2RcPPKQ" caption="" %}
 
 {% hint style="info" %}
-We'll respond with an expected timeline for the integration and release! 
+We'll respond with an expected timeline for the integration and release!
 {% endhint %}
 

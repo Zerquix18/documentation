@@ -55,7 +55,7 @@ export class HardcodedIconAdapter implements IconAdapter {
       ]
     }
   }
-  
+
 }
 ```
 

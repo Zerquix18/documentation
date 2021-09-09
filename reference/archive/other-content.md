@@ -38,9 +38,3 @@ Add one or more new events to the `events.json` file of the protocol using the f
 ]
 ```
 
-
-
-
-
-
-

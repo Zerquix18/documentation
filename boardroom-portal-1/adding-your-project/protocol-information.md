@@ -57,7 +57,7 @@ Update the `overview.md` file with a high-level description of your project and 
 
 ### Forum
 
-After you've specified your Discourse Forum URL and the Category that you want to showcase in the `index.json` .    we will need you to whitelist our URLs on the Discourse Admin interface:
+After you've specified your Discourse Forum URL and the Category that you want to showcase in the `index.json` . we will need you to whitelist our URLs on the Discourse Admin interface:
 
 1. Login as an Admin in your Discourse Forum
 2. Click on the dropdown menu on the top right

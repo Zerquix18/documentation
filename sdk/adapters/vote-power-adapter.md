@@ -11,7 +11,7 @@ export interface VotePowerInfo {
 }
 
 export interface VotePowerAdapter {
-  getVotePower(addresses: string[], blockHeight?: number): Promise<VotePowerInfo[]>;	
+  getVotePower(addresses: string[], blockHeight?: number): Promise<VotePowerInfo[]>;    
 }
 ```
 

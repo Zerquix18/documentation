@@ -19,7 +19,6 @@ const protocol = sdk.getProtocol(cname);
 
 const requestId = await protocol.adapter('delegation')
   .delegateVotingPower(delegateAddress);
-
 ```
 
 After submitting, an opaque request ID string will be returned that is implementation specific.

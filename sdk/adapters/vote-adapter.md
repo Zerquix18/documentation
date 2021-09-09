@@ -20,7 +20,6 @@ To submit a vote for a given proposal:
 const protocol = sdk.getProtocol(cname);
 
 const requestId = await protocol.adapter('vote').castVote(proposalId, choice);
-
 ```
 
 {% hint style="info" %}

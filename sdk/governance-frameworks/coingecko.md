@@ -1,6 +1,6 @@
 # CoinGecko
 
-CoinGecko is a crypto market analysis platform. It provides a public API that can be used to fetch token information and market stats for several popular protocols. 
+CoinGecko is a crypto market analysis platform. It provides a public API that can be used to fetch token information and market stats for several popular protocols.
 
 {% hint style="info" %}
 Check out the CoinGecko API here: [https://www.coingecko.com/en/api](https://www.coingecko.com/en/api)

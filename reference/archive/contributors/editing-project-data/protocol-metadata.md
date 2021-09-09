@@ -8,7 +8,7 @@ description: >-
 
 ## Protocol Information
 
-Basic information of the protocol is saved in protocols object of`index.ts` file: 
+Basic information of the protocol is saved in protocols object of`index.ts` file:
 
 ```text
 protocol_key: {

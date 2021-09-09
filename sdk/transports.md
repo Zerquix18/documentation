@@ -16,7 +16,7 @@ The following transports are used in the Governance SDK:
 
 * `ipfs` - Resolves files from the IPFS network. If not provided, a default implementation is used.
 * `http` - Makes basic HTTP requests. If not provided, a default implementation is used.
-*  `rpc` - Resolves a standard `JsonRpcProvider` instance on a per-network basis.
+* `rpc` - Resolves a standard `JsonRpcProvider` instance on a per-network basis.
 * `signer` - Used to sign payloads and provide a standard `JsonRpcSigner` instance.
 
 ### Example
@@ -26,16 +26,16 @@ Instantiating the Governance SDK with a few different JSON RPC providers:
 ```typescript
 import { GovernanceSDK, NetworkTransportResolver } from '@boardroom/gov-sdk';
 import { JsonRpcProvider } from '@ethersproject/providers';
- 
+
  const sdk = new GovernanceSDK({
     transports: {
-      
+
       rpc: new NetworkTransportResolver({
         1: new JsonRpcProvider(ETH_RPC_NODE),
         137: new JsonRpcProvider(POLYGON_RPC_NODE, 137),
         // ... additional chains
       }),
-      
+
       http: 
     },
   });
@@ -57,9 +57,9 @@ export const useGovernanceSDK = () => {
       signer: new SignerTransport(signer),
     },
   });
-  
+
   // ...
-  
+
 };
 ```
 

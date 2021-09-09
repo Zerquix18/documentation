@@ -2,9 +2,9 @@
 
 Content files will be sorted by date. Add the date \(dd-mm-yy\) to the file name you are creating. This date will be hidden on the Boardroom portal but will sort the files by most recent.
 
-### New Content Folders
+## New Content Folders
 
-New content folders will dynamically display a new item under the 'Resources' tab. 
+New content folders will dynamically display a new item under the 'Resources' tab.
 
 Raise a new pull request by following the steps below:
 
@@ -14,7 +14,7 @@ Raise a new pull request by following the steps below:
 
 3\) Raise a pull request with the changes.
 
-### New Files
+## New Files
 
 1\) Create a new file in the Dynamic folder of the protocol. _The Filename will be the title displayed in the 'Folder' tab list._
 
@@ -22,7 +22,7 @@ Raise a new pull request by following the steps below:
 
 3\) Raise a pull request with the changes.
 
-### New Calendar Events
+## New Calendar Events
 
 1\) Add one or more new events to the `events.json` file of the protocol using the following format:
 
@@ -47,7 +47,7 @@ Raise a new pull request by following the steps below:
 
 1. Raise a PR with the changes.
 
-### New Weekly Updates
+## New Weekly Updates
 
 1\) Create a new file in an new 'Updates' folder. _The Filename will be the title displayed in the 'Folder' tab list._ Remember to add the date to the filename \(Update Title + dd-mm-yy\)
 
@@ -59,7 +59,7 @@ Raise a new pull request by following the steps below:
 
 ![](../../.gitbook/assets/weekly-update-example.png)
 
-Choose from the following categories: 
+Choose from the following categories:
 
 * Parameter Change
 * Staffing

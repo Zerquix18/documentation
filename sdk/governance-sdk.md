@@ -13,7 +13,7 @@ Both the [Boardroom API](../boardroom-api/boardroom-api.md) and the [Boardroom P
 {% page-ref page="quick-start.md" %}
 
 {% hint style="info" %}
-The Governance SDK is a low-level interop library; it's not well-suited for query data for end-users. 
+The Governance SDK is a low-level interop library; it's not well-suited for query data for end-users.
 
 If you are wanting to build applications or experiences on top of read-only or aggregated governance data, or are not building for a NodeJS or browser environment, **check out the** [**Boardroom API**](../boardroom-api/boardroom-api.md) **for rapidly integrating data sourced by the Governance SDK**.
 {% endhint %}
@@ -27,6 +27,4 @@ If you are looking to add support for your protocol to the Governance SDK, you'l
 {% hint style="info" %}
 We're constantly adding new protocols to our list of [Supported Projects](../protocols.md) -- check this list to see if you're protocol integration has already been implemented by the Boardroom team!
 {% endhint %}
-
-
 

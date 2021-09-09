@@ -2,7 +2,7 @@
 
 ## Protocol Information
 
-Basic information of the protocol is saved in protocols object of`index.ts` file: 
+Basic information of the protocol is saved in protocols object of`index.ts` file:
 
 ```text
 protocol_key: {
@@ -34,5 +34,5 @@ unique_protocol_key: {
 
 4\) These changes should be reflected on the Boardroom portal a few days after the changes have been merged.
 
-We have a codesandbox instance [https://codesandbox.io/s/boardroombranding-q3u9z](https://codesandbox.io/s/boardroombranding-q3u9z) to visualize branding changes. Change the corresponding color variable in index.js file to have a sense of how the protocol pages will look after the updates. 
+We have a codesandbox instance [https://codesandbox.io/s/boardroombranding-q3u9z](https://codesandbox.io/s/boardroombranding-q3u9z) to visualize branding changes. Change the corresponding color variable in index.js file to have a sense of how the protocol pages will look after the updates.
 

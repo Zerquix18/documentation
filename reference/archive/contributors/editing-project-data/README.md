@@ -4,11 +4,7 @@ description: Teams can edit their project's data at any time in the Boardroom Gi
 
 # Editing Project Data
 
-
-
-
-
-### Structure
+## Structure
 
 1. The `index.ts` file contains basic project metadata, as well as branding colors
 2. Folders for each project contain the following:

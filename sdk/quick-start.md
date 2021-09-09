@@ -36,7 +36,7 @@ The Governance SDK can be provided with transport-specific overrides to inject t
 
 ### Injecting Transports
 
-You will want to generally _at least_ provide an Ethereum RPC provider instance, as that powers most read-only operations such as computing snapshot voting power or reading from on-chain governance contracts. 
+You will want to generally _at least_ provide an Ethereum RPC provider instance, as that powers most read-only operations such as computing snapshot voting power or reading from on-chain governance contracts.
 
 As an example, you can use Ethers' `JsonRpcProvider` implementation and point it to a HTTP RPC node from a provider like Infura or Alchemy:
 

@@ -7,19 +7,19 @@ description: Paging through results in the Boardroom API
 For all API routes that return a list of data, the Boardroom API follows a standardized approach to pagination when returning a subset of all available results.
 
 {% hint style="info" %}
-See all available HTTP routes, query parameters, and example responses in the [API Reference]()
+See all available HTTP routes, query parameters, and example responses in the [API Reference](pagination.md)
 {% endhint %}
 
-### Overview
+## Overview
 
 Pagination is handled via the following two parameters:
 
 * `limit` - **If providing a limit, then the API will only return at most this many results.** Depending on the route, there may be a maximum limit that is enforced. If providing a value for `limit` greater than the max, or for other internal reasons to the platform, you may not always get back as many items as requested with this parameter.
 * `cursor` - **If providing a cursor, then the API will resume the paginated query from a previous position**. If a paginated response has more items than were returned, a `nextCursor` value is provided in the response. Passing this value back to the endpoint for a subsequent request will continue paging through the result set. The cursor should be treated as an arbitrary opaque string.
 
-### Example
+## Example
 
-The **List Proposals** route in the [Boardroom API]() is a paginated route.  If we make the following request:
+The **List Proposals** route in the [Boardroom API](pagination.md) is a paginated route. If we make the following request:
 
 ```text
 GET https://api.boardroom.info/v1/proposals?limit=5
